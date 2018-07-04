@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM resin/raspberry-pi-debian
 MAINTAINER Jesse Rosenberger
 
 ENV METEORD_DIR /opt/meteord
