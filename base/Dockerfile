@@ -1,5 +1,5 @@
-FROM resin/raspberry-pi-debian
-MAINTAINER Jesse Rosenberger
+FROM armv7/armhf-ubuntu
+MAINTAINER Dimitar K. Nikolov <dimitar@doonloo.com>
 
 ENV METEORD_DIR /opt/meteord
 COPY scripts $METEORD_DIR
